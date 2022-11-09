@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pricing Table With Toggle</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+ <section class="pricing">
+   <div class="container">
+     <div class="pricing-main">
+       <div class="row">
+         <div class="switch-table">
+            <div class="text-monthly">monthly</div>
+            <label class="custom-switch">
+               <span></span>
+               <input type="checkbox" class="toggle-switch">
+            </label>
+            <div class="text-yearly">yearly</div>
+         </div>
+       </div>
+       <div class="row">
+         <!-- basic table start -->
+         <div class="pricing-table style-1">
+           <div class="pricing-table-header">
+             <h3>Basic</h3>
+           </div>
+           <div class="pricing-table-price">
+             <div class="monthly-price">
+               <div class="currency">₹</div>
+               <div class="amount">150</div>
+             </div>
+             <div class="yearly-price">
+               <div class="currency">₹</div>
+               <div class="amount">1600</div>
+             </div>
+           </div>
+           <div class="pricing-table-body">
+             <ul class="monthly-features">
+                <li><i class="fa fa-check"></i>Single Domain</li>
+                <li><i class="fa fa-check"></i> Free SSL certificate</li>
+                <li><i class="fa fa-close"></i>Dedicated IP </li>
+                <li><i class="fa fa-close"></i> C-panel</li>
+                <li><i class="fa fa-close"></i>Unlimited Database</li>
+                <li><i class="fa fa-close"></i>Unmeterd Diskspace</li>
+             </ul>
+             <ul class="yearly-features">
+                <li><i class="fa fa-check"></i> Single Domain</li>
+                <li><i class="fa fa-check"></i>Free SSL Certificate</li>
+                <li><i class="fa fa-check"></i> Dedicated IP</li>
+                <li><i class="fa fa-close"></i> C-panel</li>
+                <li><i class="fa fa-close"></i>Unlimited Database</li>
+                <li><i class="fa fa-close"></i>Unmeterd Diskspace</li>
+               
+             </ul>
+           </div>
+           <div class="pricing-table-footer">
+             <a href="#">Buy now</a>
+           </div>
+         </div>
+         <!-- basic table end -->
+
+         <!-- standard table start -->
+         <div class="pricing-table style-2">
+           <div class="pricing-table-header">
+             <h3>Gold</h3>
+           </div>
+           <div class="pricing-table-price">
+             <div class="monthly-price">
+               <div class="currency">₹</div>
+               <div class="amount">300</div>
+             </div>
+             <div class="yearly-price">
+               <div class="currency">₹</div>
+               <div class="amount">3400</div>
+             </div>
+           </div>
+           <div class="pricing-table-body">
+             <ul class="monthly-features">
+                <li><i class="fa fa-check"></i> Two Domains</li>
+                <li><i class="fa fa-check"></i> Free SSL Certificate</li>
+                <li><i class="fa fa-check"></i> Dedicated IP</li>
+                <li><i class="fa fa-check"></i>C-panel</li>
+                <li><i class="fa fa-close"></i>Unlimited Database</li>
+                <li><i class="fa fa-close"></i>Unmeterd Diskspace</li>
+             </ul>
+             <ul class="yearly-features">
+                <li><i class="fa fa-check"></i> Two Domains</li>
+                <li><i class="fa fa-check"></i> Free SSL Certificate</li>
+                <li><i class="fa fa-check"></i> Dedicated IP</li>
+                <li><i class="fa fa-check"></i>C-panel</li>
+                <li><i class="fa fa-check"></i>Unlimited Database</li>
+                <li><i class="fa fa-close"></i>Unmeterd Diskspace</li>
+             </ul>
+           </div>
+           <div class="pricing-table-footer">
+             <a href="#">Buy now</a>
+           </div>
+         </div>
+         <!-- standard table end -->
+
+         <!-- premium table start -->
+         <div class="pricing-table style-3">
+           <div class="pricing-table-header">
+             <h3>Platinum</h3>
+           </div>
+           <div class="pricing-table-price">
+             <div class="monthly-price">
+               <div class="currency">₹</div>
+               <div class="amount">500</div>
+             </div>
+             <div class="yearly-price">
+               <div class="currency">₹</div>
+               <div class="amount">5500</div>
+             </div>
+           </div>
+           <div class="pricing-table-body">
+             <ul class="monthly-features">
+                <li><i class="fa fa-check"></i> Unlimited Domains</li>
+                <li><i class="fa fa-check"></i> Free SSL Certificate</li>
+                <li><i class="fa fa-check"></i> Dedicated IP</li>
+                <li><i class="fa fa-check"></i>C- panel</li>
+                <li><i class="fa fa-check"></i>Unlimited Database</li>
+                <li><i class="fa fa-close"></i>Unmeterd Diskspace</li>
+             </ul>
+             <ul class="yearly-features">
+                <li><i class="fa fa-check"></i> Unlimited Domains</li>
+                <li><i class="fa fa-check"></i> Free SSL Certificate</li>
+                <li><i class="fa fa-check"></i> Dedicated IP</li>
+                <li><i class="fa fa-check"></i>C- panel</li>
+                <li><i class="fa fa-check"></i>Unlimited Database</li>
+                <li><i class="fa fa-check"></i>Unmeterd Diskspace</li>
+             </ul>
+           </div>
+           <div class="pricing-table-footer">
+             <a href="#">Buy now</a>
+           </div>
+         </div>
+         <!-- premium table end -->
+       </div>
+     </div>
+   </div>
+ </section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
